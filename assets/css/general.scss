@@ -1,0 +1,69 @@
+$background-color: #d2bb8f;
+$font-family: 'Dancing Script', cursive;
+$font-color: #333;
+$font-size: 14px;
+$main-width: 80%;
+
+html, body{
+    background-color: $background-color;
+    color: $font-color;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: $font-family;
+}
+
+section, p, h1, h2, h3, h4, a, img, input, select, textarea, ul, li{
+    margin: 0;
+	padding: 0;
+}
+
+p, h1, h2, h3, h4, a{
+	border: none;
+	font-weight: normal;
+	text-decoration: none;
+    font-family: $font-family;
+    font-size: $font-size;
+}
+
+img, input, select, textarea{
+    display: block;
+    outline: none;
+    border: 0;
+}
+
+section{
+    position: relative;
+    width: $main-width;
+    margin: 0 auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    html, body{
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+    html, body{
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    html, body{
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    html, body{
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    html, body{
+    }
+}

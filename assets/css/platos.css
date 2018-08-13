@@ -1,0 +1,69 @@
+header {
+  background-color: #333;
+}
+header h1 {
+  font-size: 60px;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  font-weight: 700;
+  color: #FFF;
+}
+
+#platos {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.plato {
+  overflow: hidden;
+  margin: 10px;
+  background-color: #fff;
+  width: calc(25% - 40px);
+  float: left;
+  border: 10px solid #eee;
+  cursor: pointer;
+  text-align: center;
+}
+.plato h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.plato p {
+  font-size: 16px;
+  padding: 15px 0 15px 0;
+}
+.plato img {
+  width: 100%;
+}
+
+.plato:hover {
+  background-color: #333;
+  border: 10px solid #222;
+  color: #FFF;
+}
+
+#footer-social-media {
+  list-style: none;
+  margin: 3em;
+  display: flex;
+  justify-content: center;
+}
+#footer-social-media li {
+  text-align: center;
+  padding: 20px;
+}
+#footer-social-media a {
+  text-decoration: none;
+  color: #867452;
+}
+#footer-social-media a p {
+  font-size: 30px;
+  font-weight: 700;
+}
+#footer-social-media a .bevel {
+  text-shadow: 1px 1px 1px #555, -1px -1px 1px #000;
+  color: #867452;
+}
+
+/*# sourceMappingURL=platos.css.map */

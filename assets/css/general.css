@@ -1,0 +1,41 @@
+html, body {
+  background-color: #d2bb8f;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Dancing Script", cursive;
+}
+
+section, p, h1, h2, h3, h4, a, img, input, select, textarea, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2, h3, h4, a {
+  border: none;
+  font-weight: normal;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 14px;
+}
+
+img, input, select, textarea {
+  display: block;
+  outline: none;
+  border: 0;
+}
+
+section {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+/*# sourceMappingURL=general.css.map */
