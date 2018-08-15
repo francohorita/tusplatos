@@ -20,19 +20,19 @@ header {
     overflow: hidden;
     margin: 10px;
     background-color: #fff;
-    width: calc(25% - 40px);
+    width: calc(33% - 40px);
     float: left;
     border: 10px solid #eee;
     cursor: pointer;
     text-align: center;
 
     h2 {
-        font-size: 36px;
+        font-size: 40px;
         font-weight: 700;
     }
 
     p {
-        font-size: 16px;
+        font-size: 24px;
         padding: 15px 0 15px 0;
     }
 
@@ -77,4 +77,20 @@ header {
     }
 
 
+}
+
+@media (max-width: 768px) {
+    .plato {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 600px) {
+    .plato {
+        width: calc(100% - 40px);
+    }
+    
+    #footer-social-media{
+        display: inline;
+    }
 }
