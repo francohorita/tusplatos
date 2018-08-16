@@ -8,6 +8,12 @@ header h1 {
   font-weight: 700;
   color: #FFF;
 }
+header h2 {
+  text-align: center;
+  font-size: 28px;
+  padding: 0 0 20px 0;
+  color: #FFF;
+}
 
 #platos {
   position: relative;
@@ -25,7 +31,7 @@ header h1 {
   cursor: pointer;
   text-align: center;
 }
-.plato h2 {
+.plato h3 {
   font-size: 40px;
   font-weight: 700;
 }
@@ -40,6 +46,9 @@ header h1 {
 .plato:hover {
   background-color: #333;
   border: 10px solid #222;
+  color: #FFF;
+}
+.plato:hover h3, .plato:hover p, .plato:hover a {
   color: #FFF;
 }
 

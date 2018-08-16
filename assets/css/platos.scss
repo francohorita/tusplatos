@@ -8,6 +8,13 @@ header {
         font-weight: 700;
         color: #FFF;
     }
+    
+    h2{
+        text-align: center;
+        font-size: 28px;
+        padding: 0 0 20px 0;
+        color: #FFF;
+    }
 }
 
 #platos {
@@ -26,7 +33,7 @@ header {
     cursor: pointer;
     text-align: center;
 
-    h2 {
+    h3 {
         font-size: 40px;
         font-weight: 700;
     }
@@ -46,6 +53,10 @@ header {
     background-color: #333;
     border: 10px solid #222;
     color: #FFF;
+    
+    h3, p, a{
+        color: #FFF;
+    }
 }
 
 

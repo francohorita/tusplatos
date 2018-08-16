@@ -4,11 +4,11 @@ $(document).ready(function () {
 
     for (i = 1; i <= 6; i++) {
         var html = `
-            <div class="plato">
-                <h2>`+platos[i]+`</h2>
+            <a data-fancybox="gallery" href="assets/img/`+i+`.jpg" class="plato">
+                <h3>`+platos[i]+`</h3>
                 <p>Descripcion del plato</p>
                 <img src="assets/img/`+i+`.jpg">
-            </div>
+            </a>
             `;
         
         $("#platos").append(html);
