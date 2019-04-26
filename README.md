@@ -1,4 +1,4 @@
-# tusplatos - HTML Basic Project
+# tusplatos - Responsive basic HTML & Sass project
 
 **tusplatos** is a simple basic HTML project with a **JQuery lightbox** plugin for educational purposes only.
 
